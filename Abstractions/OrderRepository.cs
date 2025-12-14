@@ -1,4 +1,5 @@
-﻿using ProductionGrade.Abstractions;
+﻿using Microsoft.EntityFrameworkCore;
+using ProductionGrade.Abstractions;
 using ProductionGrade.Data;
 using ProductionGrade.Models;
 
@@ -13,10 +14,21 @@ namespace ProductionGrade.Repositories
             _context = context;
         }
 
-        public async Task<Order?> GetByIdAsync(int id) =>
-            await _context.Orders.FindAsync(id);
+        public async Task CreateAsync(Order order)
+        {
+            _context.Orders.Add(order);
+            await _context.SaveChangesAsync();
+        }
 
-        public async Task AddAsync(Order order) =>
+        public async Task<Order?> GetByIdAsync(int id)
+        {
+            return await _context.Orders.FindAsync(id);
+        }
+
+        public async Task AddAsync(Order order)
+        {
             await _context.Orders.AddAsync(order);
+            await _context.SaveChangesAsync();
+        }
     }
 }

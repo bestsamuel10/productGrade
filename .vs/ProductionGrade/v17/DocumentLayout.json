@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\abstractions\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:abstractions\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\extensions\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:extensions\\swaggerconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\productiongrade.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:productiongrade.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T10:56:25.59Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OrderLine.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Models\\OrderLine.cs",
-              "RelativeDocumentMoniker": "Models\\OrderLine.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Models\\OrderLine.cs",
-              "RelativeToolTip": "Models\\OrderLine.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T10:52:03.192Z",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-14T20:08:27.163Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Abstractions\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Abstractions\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Abstractions\\ProductRepository.cs",
-              "RelativeToolTip": "Abstractions\\ProductRepository.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Title": "SwaggerConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Extensions\\SwaggerConfig.cs",
+              "RelativeDocumentMoniker": "Extensions\\SwaggerConfig.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Extensions\\SwaggerConfig.cs",
+              "RelativeToolTip": "Extensions\\SwaggerConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T10:50:55.475Z",
+              "WhenOpened": "2025-12-14T19:45:16.719Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Services\\OrderService.cs",
-              "RelativeToolTip": "Services\\OrderService.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAYwEQAAAAMAAAAAAAAAA==",
+              "Title": "ProductionGrade",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\ProductionGrade.csproj",
+              "RelativeDocumentMoniker": "ProductionGrade.csproj",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\ProductionGrade.csproj",
+              "RelativeToolTip": "ProductionGrade.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-14T19:12:54.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAADwv4UAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T10:38:26.574Z",
+              "WhenOpened": "2025-12-14T19:04:52.944Z",
               "EditorCaption": ""
             }
           ]

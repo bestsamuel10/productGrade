@@ -30,8 +30,11 @@ namespace ProductionGrade.Repositories
         }
 
 
-
-        public async Task DeleteAsync(Product product) =>
+        public Task DeleteAsync(Product product)
+        {
             _context.Products.Remove(product);
+            return Task.CompletedTask;
+        }
     }
 }
+ 
