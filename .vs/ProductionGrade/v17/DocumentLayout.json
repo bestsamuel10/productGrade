@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -31,6 +35,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\README.md",
+              "RelativeDocumentMoniker": "README.md",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\README.md",
+              "RelativeToolTip": "README.md",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAG8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2025-12-14T20:40:28.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SwaggerConfig.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Extensions\\SwaggerConfig.cs",
               "RelativeDocumentMoniker": "Extensions\\SwaggerConfig.cs",
@@ -51,25 +68,23 @@
               "RelativeToolTip": "Extensions\\SwaggerConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T19:45:16.719Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T19:45:16.719Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProductionGrade",
+              "DocumentIndex": 4,
+              "Title": "ProductionGrade.csproj",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\ProductionGrade.csproj",
               "RelativeDocumentMoniker": "ProductionGrade.csproj",
               "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\ProductionGrade.csproj",
               "RelativeToolTip": "ProductionGrade.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-12-14T19:12:54.254Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T19:12:54.254Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -77,8 +92,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAHYAAAAAAAAAAADwv4UAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-14T19:04:52.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-14T19:04:52.944Z"
             }
           ]
         }
