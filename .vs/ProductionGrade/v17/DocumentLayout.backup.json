@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\abstractions\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:abstractions\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:models\\orderline.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|c:\\users\\hp\\source\\repos\\productiongrade\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD7C847F-F2FD-405F-8C1F-C79AD308447A}|ProductionGrade.csproj|solutionrelative:services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T10:56:25.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderLine.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Models\\OrderLine.cs",
+              "RelativeDocumentMoniker": "Models\\OrderLine.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Models\\OrderLine.cs",
+              "RelativeToolTip": "Models\\OrderLine.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T10:52:03.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Abstractions\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Abstractions\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Abstractions\\ProductRepository.cs",
+              "RelativeToolTip": "Abstractions\\ProductRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T10:50:55.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\Hp\\source\\repos\\ProductionGrade\\Services\\OrderService.cs",
+              "RelativeToolTip": "Services\\OrderService.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAYwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-14T10:38:26.574Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
