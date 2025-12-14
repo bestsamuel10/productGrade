@@ -1,13 +1,12 @@
 ﻿namespace ProductionGrade.Models
 {
-    public class Order
+    public class Order : BaseEntity
     {
-        public int Id { get; set; }                // Primary Key
-        public int UserId { get; set; }            // For future authentication
-        public DateTime OrderDate { get; set; } = DateTime.UtcNow;
+        public Guid UserId { get; set; }
+        public DateTime OrderDate { get; set; }
         public decimal TotalAmount { get; set; }
 
-        // Navigation property
         public ICollection<OrderLine> OrderLines { get; set; } = new List<OrderLine>();
     }
+
 }

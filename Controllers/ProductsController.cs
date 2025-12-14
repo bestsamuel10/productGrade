@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using ProductionGrade.DTOs;
 using ProductionGrade.Services;
+using ProductionGrade.DTOs;
 
 namespace ProductionGrade.Controllers
 {
@@ -8,55 +8,45 @@ namespace ProductionGrade.Controllers
     [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
-        private readonly ProductService _productService;
+        private readonly ProductService _service;
 
-        public ProductsController(ProductService productService)
+        public ProductsController(ProductService service)
         {
-            _productService = productService;
+            _service = service;
         }
 
+        // GET: api/products
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var products = await _productService.GetAllAsync();
-            return Ok(ApiResponse<IEnumerable<ProductDto>>.Ok(products));
+            var products = await _service.GetAllAsync();
+            return Ok(products);
         }
 
+        // GET: api/products/{id}
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetById(int id)
+        public async Task<IActionResult> GetById(Guid id)
         {
-            var product = await _productService.GetByIdAsync(id);
-            if (product == null)
-                return NotFound(ApiResponse<ProductDto>.Fail("Product not found"));
+            var product = await _service.GetByIdAsync(id);
+            if (product == null) return NotFound();
 
-            return Ok(ApiResponse<ProductDto>.Ok(product));
+            return Ok(product);
         }
 
+        // POST: api/products
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateProductDto dto)
+        public async Task<IActionResult> Create(CreateProductDto dto)
         {
-            var product = await _productService.CreateAsync(dto);
-            return CreatedAtAction(nameof(GetById), new { id = product.Id }, ApiResponse<ProductDto>.Ok(product, "Product created successfully"));
+            var product = await _service.CreateAsync(dto);
+            return Ok(product);
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Update(int id, [FromBody] UpdateProductDto dto)
-        {
-            var updated = await _productService.UpdateAsync(id, dto);
-            if (!updated)
-                return NotFound(ApiResponse<bool>.Fail("Product not found"));
-
-            return Ok(ApiResponse<bool>.Ok(true, "Product updated successfully"));
-        }
-
+        // DELETE: api/products/{id}
         [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
+        public async Task<IActionResult> Delete(Guid id)
         {
-            var deleted = await _productService.DeleteAsync(id);
-            if (!deleted)
-                return NotFound(ApiResponse<bool>.Fail("Product not found"));
-
-            return Ok(ApiResponse<bool>.Ok(true, "Product deleted successfully"));
+            var deleted = await _service.DeleteAsync(id);
+            return deleted ? Ok("Product deleted") : NotFound();
         }
     }
 }

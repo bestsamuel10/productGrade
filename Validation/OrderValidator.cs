@@ -7,7 +7,7 @@ namespace ProductionGrade.Validation
     {
         public OrderValidator()
         {
-            RuleFor(o => o.UserId).GreaterThan(0);
+            RuleFor(o => o.UserId).NotEmpty(); // Guid must not be default
             RuleForEach(o => o.OrderLines).SetValidator(new OrderLineValidator());
         }
     }
@@ -16,8 +16,9 @@ namespace ProductionGrade.Validation
     {
         public OrderLineValidator()
         {
-            RuleFor(ol => ol.ProductId).GreaterThan(0);
+            RuleFor(ol => ol.ProductId).NotEmpty(); // Guid must not be default
             RuleFor(ol => ol.Quantity).GreaterThan(0);
         }
     }
+
 }
